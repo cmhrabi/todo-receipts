@@ -1,0 +1,13 @@
+[project]
+name = "todo-receipts"
+version = "0.1.0"
+description = "Watch a Notion database and print receipts for new todos"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
+]
+
+[project.optional-dependencies]
+hardware = ["python-escpos"]
